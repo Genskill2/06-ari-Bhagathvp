@@ -63,3 +63,11 @@ printf("\nthe given string has %li characters, %li words and %li sentences.\n",c
 	
 	
 }
+	   
+	
+
+int main(void){
+	string a="Pet ownership is an essential environmental exposure that might influence the health of the owner. This study’s primary objectives were to explore the effects of cat ownership on the gut microbial diversity and composition of owners. Raw data from the American Gut Project were obtained from the SRA database. A total of 214 Caucasian individuals (111 female) with cats and 214 individuals (111 female) without cats were used in the following analysis. OTU number showed significant alteration in the Cat group and Female_cat group, compared with that of the no cat (NC) group and Female_ NC group, respectively. Compared with the NC group, the microbial phylum Proteobacteria was significantly decreased in the Cat group.";
+	ari(a);
+
+}
