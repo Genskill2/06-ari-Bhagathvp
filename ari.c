@@ -2,9 +2,6 @@
 #include<cs50.h>
 #include<ctype.h>
 #include<string.h>
-#include<math.h>
-
-
 
 string ari(string s){
 
@@ -27,6 +24,6 @@ printf("THE ENTERED STRING IS: \n%s\n",s);
 	
 printf("\nthe given string has %li characters, %li words and %li sentences.\n",characters,words,sentences);
 	float score=(4.71*characters/words)+(0.5*words/sentences)-21.43;
-	printf("THE ARI SCORE IS:%i\n",(int)(score+1));
+	printf("THE ARI SCORE IS:%i\n",(int)score+1);
 }
 	
