@@ -63,6 +63,6 @@ printf("\nthe given string has %li characters, %li words and %li sentences.\n",c
 	 }
 	 
 	 printf("THE ARI SCORE IS:%i.The text is suitable for %s.\n",ari,std);
-	
+	 return std;
 	
 }
